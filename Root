@@ -2,8 +2,11 @@
 <html>
 
 <title>Baseball Card Ledger</title><br> 
-  <a>Property of Hayden Schaetzle</a>
     <h1> BASEBALL CARD LEDGER</h1>
+  <figure>
+  <img src="https://image.shutterstock.com/image-photo/baseball-player-throws-ball-on-600w-1131760214.jpg">
+    <figcaption>Created by & property of Hayden Schaetzle</figcaption>
+  </figure>
       <h2>Updated as of: 12 May 2022</h2> <!-- revisit to evenually keep automatic date per login -->
  
   <br><br>
