@@ -10,7 +10,7 @@
  <body>
    <p>Browse new cards <a href="https://www.topps.com/cards-collectibles/topps-now/mlbtoppsnow.html">here</a></p>
    <br><br>
-   <text>Submit new card information below:</text> <!-- want to be able to differentiate between duplicates and archive-->
+   <text>Submit new card information below:</text> 
     <form>
       <input type="text" placeholder="type data here"> <button type="submit">Submit</button></input> 
        <input type="checkbox" value="Duplicate">Duplicate</input>
@@ -27,13 +27,14 @@
         <li>LOAISIGA, Jonathan - Yankees - 2021<input type="checkbox"></li>
         <li>KLUBER, Corey - Yankees - 2021<input type="checkbox"></li>
         <li>CAVE, Jake - Twins - 2021<input type="checkbox"></li>
-      </ul>
-  <br>
-  <text>Ledger of archived cards:</text>
+      </ul> <!-- Place calculation of total somewhere here -->
+  <br>   <!-- add option to delete cards from roster somewhere here -->
+  <text>Ledger of archived cards:</text>  
       
       <ol>
         <li>Testing one</li>
         <li>Testing two</li>
         <li>Testing three</li>
-      </ol>
+      </ol>  <!-- Place calculation of total somewhere here -->
+      <!-- add option to delete cards from roster somewhere here -->
 </body>
