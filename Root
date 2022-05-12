@@ -8,11 +8,11 @@
  
   <br><br>
  <body>
-   <a href="https://www.topps.com/cards-collectibles/topps-now/mlbtoppsnow.html">Browse New Cards</a>
+   <p>Browse new cards <a href="https://www.topps.com/cards-collectibles/topps-now/mlbtoppsnow.html">here</a></p>
    <br><br>
-  <text>Submit new card information below:</text> <!-- want to be able to differentiate between duplicates and archive-->
+   <text>Submit new card information below:</text> <!-- want to be able to differentiate between duplicates and archive-->
     <form>
-      <input type="text" placeholder="type info here"> <button type="submit">Submit</button></input> 
+      <input type="text" placeholder="type data here"> <button type="submit">Submit</button></input> 
        <input type="checkbox" value="Duplicate">Duplicate</input>
         <input type="checkbox" value="Archive">Archive</input>
           <br> <!--intended to be able to eventually add information that will populate in list below-->
@@ -32,6 +32,8 @@
   <text>Ledger of archived cards:</text>
       
       <ol>
-        
+        <li>Testing one</li>
+        <li>Testing two</li>
+        <li>Testing three</li>
       </ol>
 </body>
