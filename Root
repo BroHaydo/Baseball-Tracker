@@ -8,9 +8,14 @@
  
   <br><br>
     <body>
-      <form>
-      <text>Submit new card information here:</text> <!-- want to be able to differentiate between duplicates and archive-->
-      <input type="text" placeholder="type info here"</input> <!--intended to be able to eventually add information that will populate in list below-->
+            
+        <text>Submit new card information here:</text> <!-- want to be able to differentiate between duplicates and archive-->
+ <form>
+  <input type="text" placeholder="type info here"> <button type="submit">Submit</button></input> 
+  <input type="checkbox" value="Duplicate">Duplicate</input>
+  <input type="checkbox" value="Archive">Archive</input>
+  <br> <!--intended to be able to eventually add information that will populate in list below-->
+   <text>SURNAME, Given name - Team - year</text><br>
      <!-- add button for submission, stop attracting it to information below-->
       </form>
   <br><br>
