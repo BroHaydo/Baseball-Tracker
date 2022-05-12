@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<title>Baseball Card Ledger</title><br> 
+  <a>Property of Hayden Schaetzle</a>
+  <h1> BASEBALL CARD LEDGER</h1>
+  <h2>Updated as of: 11 May 2022</h2> <!-- revisit to evenually keep automatic date per login -->
+ 
+  <br><br>
+    <body>
+      <form>
+      <text>Submit new card information here:</text> <!-- want to be able to differentiate between duplicates and archive-->
+      <input type="text" placeholder="type info here"</input> <!--intended to be able to eventually add information that will populate in list below-->
+     <!-- add button for submission, stop attracting it to information below-->
+      </form>
+  <br><br>
+      <text>Ledger of current duplicate cards:</text>
+      <ul>
+        <li>CIVALE, Aaron - Indians - 2021 <input type="checkbox"></li> <!-- manually added for reference-->
+        <li>TORRENS, Luis - Mariners - 2021<input type="checkbox"></li>
+        <li>FRANCO, Maikel - Orioles - 2021<input type="checkbox"></li>
+        <li>LOAISIGA, Jonathan - Yankees - 2021<input type="checkbox"></li>
+        <li>KLUBER, Corey - Yankees - 2021<input type="checkbox"></li>
+        <li>CAVE, Jake - Twins - 2021<input type="checkbox"></li>
+      </ul>
+  <br>
+  <text>Ledger of archived cards:</text>
+      
+      <ol>
+        
+      </ol>
+         </body>
