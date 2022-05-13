@@ -3,14 +3,10 @@
 
 <title>Baseball Card Ledger</title><br> 
     <h1> BASEBALL CARD LEDGER</h1>
-  <figure>
-  <img src="https://image.shutterstock.com/image-photo/baseball-player-throws-ball-on-600w-1131760214.jpg" alt="baseball player throwing ball within field>
-    <figcaption>Created by & property of Hayden Schaetzle</figcaption>
-  </figure>
-      <h2>Updated as of: 12 May 2022</h2> <!-- revisit to evenually keep automatic date per login -->
- 
-  <br><br>
- <body>
+  <h2>Created by and property of: Hayden Schaetzle</h2>
+      <h3>Updated as of: 12 May 2022</h3> <!-- revisit to evenually keep automatic date per login -->
+ <br>
+ <body><br>
    <p>Browse new cards <a href="https://www.topps.com/cards-collectibles/topps-now/mlbtoppsnow.html">here</a></p>
    <br><br>
    <text>Submit new card information below:</text> 
@@ -19,8 +15,8 @@
       <input type="text" placeholder="Given name"required><br>                                                                       
       <input type="text" placeholder="Team"required><br>                                                                                              
       <input type="text" placeholder="Year"required><button type="submit">submit</button></input> 
-      <input type="checkbox" value="Duplicate">Duplicate</input>
-      <input type="checkbox" value="Archive">Archive</input>
+      <label><input type="checkbox" value="Duplicate">Duplicate</input></label>
+      <label><input type="checkbox" value="Archive">Archive</input></label>
       <br> <!--intended to be able to eventually add information that will populate in list below-->
          
     </form>
@@ -43,4 +39,7 @@
         <li>Testing three</li>
       </ol>  <!-- Place calculation of total somewhere here -->
       <!-- add option to delete cards from roster somewhere here -->
+
+
+<img src="https://image.shutterstock.com/image-photo/baseball-player-throws-ball-on-600w-1131760214.jpg" alt="baseball player throwing ball within field>
 </body>
