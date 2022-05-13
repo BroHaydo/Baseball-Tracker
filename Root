@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
+    <link rel="stylesheet" type="text/css" href=styles.css">
       <title>Baseball Card Ledger</title><br> 
         <h1> BASEBALL CARD LEDGER</h1>
         <h2>Created by and property of: Hayden Schaetzle</h2>
