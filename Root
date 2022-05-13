@@ -15,11 +15,14 @@
    <br><br>
    <text>Submit new card information below:</text> 
     <form>
-      <input type="text" placeholder="type data here"> <button type="submit">Submit</button></input> 
+      <input type="text" placeholder="SURNAME"><br>                                                                                               
+      <input type="text" placeholder="Given name"><br>                                                                                               
+      <input type="text" placeholder="Team"><br>                                                                                              
+      <input type="text" placeholder="Year"> <button type="submit">Submit</button></input> 
       <input type="checkbox" value="Duplicate">Duplicate</input>
       <input type="checkbox" value="Archive">Archive</input>
       <br> <!--intended to be able to eventually add information that will populate in list below-->
-         <text>SURNAME, Given name - Team - year</text><br>
+         
     </form>
   <br><br>
       <text>Ledger of current duplicate cards:</text>
