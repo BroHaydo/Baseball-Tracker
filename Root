@@ -9,8 +9,9 @@
  <body><br>
    <p>Browse new cards <a href="https://www.topps.com/cards-collectibles/topps-now/mlbtoppsnow.html">here</a></p>
    <br><br>
-   <text>Submit new card information below:</text> 
-    <form>
+    
+    <fieldset>
+     <legend>Submit new card information below:</legend>
       <input id="surname" type="text" placeholder="SURNAME"required><br>                    
       <input id="given name" type="text" placeholder="Given name"required><br>                                                                       
       <input id="team" type="text" placeholder="Team"required><br>  
@@ -18,9 +19,10 @@
       <label><input type="checkbox" value="Duplicate">Duplicate</input></label>
       <label><input type="checkbox" value="Archive">Archive</input></label>
       <button type="submit">submit</button>
+</fieldset>
       <br> <!--intended to be able to eventually add information that will populate in list below-->
          
-    </form>
+  
   <br><br>
       <text>Ledger of current duplicate cards:</text>
       <ul>
