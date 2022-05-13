@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
+    <div class="design"> <!-- in CSS place: ".design { background-color: burlywood;} -->
     <link rel="stylesheet" type="text/css" href=styles.css">
       <title>Baseball Card Ledger</title><br> 
         <h1> BASEBALL CARD LEDGER</h1>
