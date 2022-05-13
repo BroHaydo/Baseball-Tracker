@@ -18,7 +18,7 @@
       <input id="year" type="text" placeholder="Year"required></input> 
       <label><input type="checkbox" value="Duplicate">Duplicate</input></label>
       <label><input type="checkbox" value="Archive">Archive</input></label>
-      <button type="submit">submit</button>
+      <legend><button type="submit">submit</button></legend>
 </fieldset>
       <br> <!--intended to be able to eventually add information that will populate in list below-->
          
