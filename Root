@@ -11,10 +11,10 @@
    <br><br>
    <text>Submit new card information below:</text> 
     <form>
-      <input type="text" placeholder="SURNAME"required><br>                                                                                               
-      <input type="text" placeholder="Given name"required><br>                                                                       
-      <input type="text" placeholder="Team"required><br>                                                                                              
-      <input type="text" placeholder="Year"required><button type="submit">submit</button></input> 
+      <input id="surname" type="text" placeholder="SURNAME"required><br>                    
+      <input id="given name" type="text" placeholder="Given name"required><br>                                                                       
+      <input id="team" type="text" placeholder="Team"required><br>  
+      <input id="year" type="text" placeholder="Year"required><button type="submit">submit</button></input> 
       <label><input type="checkbox" value="Duplicate">Duplicate</input></label>
       <label><input type="checkbox" value="Archive">Archive</input></label>
       <br> <!--intended to be able to eventually add information that will populate in list below-->
