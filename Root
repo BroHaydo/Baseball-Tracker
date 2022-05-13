@@ -15,10 +15,10 @@
       <input id="surname" type="text" placeholder="SURNAME"required><br>                    
       <input id="given name" type="text" placeholder="Given name"required><br>                                                                       
       <input id="team" type="text" placeholder="Team"required><br>  
-      <input id="year" type="text" placeholder="Year"required></input> 
-      <label><input type="checkbox" value="Duplicate">Duplicate</input></label>
-      <label><input type="checkbox" value="Archive">Archive</input></label>
-      <legend><button type="submit">submit</button></legend>
+      <input id="year" type="text" placeholder="Year"required> 
+      <label><input type="checkbox" value="Duplicate"> Duplicate</label>
+      <label><input type="checkbox" value="Archive"> Archive</label>
+<legend><button type="submit">submit</button></legend>
 </fieldset>
       <br> <!--intended to be able to eventually add information that will populate in list below-->
          
