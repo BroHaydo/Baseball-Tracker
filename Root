@@ -3,7 +3,6 @@
 
 <title>Baseball Card Ledger</title><br> 
     <h1> BASEBALL CARD LEDGER</h1>
-  <h2>Created by and property of: Hayden Schaetzle</h2>
       <h3>Updated as of: 12 May 2022</h3> <!-- revisit to evenually keep automatic date per login -->
  <br>
  <body><br>
@@ -46,4 +45,5 @@
 
 
 <img src="https://image.shutterstock.com/image-photo/baseball-player-throws-ball-on-600w-1131760214.jpg" alt="baseball player throwing ball within field>
+<footer>Copyright - Hayden Schaetzle 2022</footer>
 </body>
