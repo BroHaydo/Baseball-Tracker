@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html>
-
-<title>Baseball Card Ledger</title><br> 
-    <h1> BASEBALL CARD LEDGER</h1>
-  <figure>
-  <img src="https://image.shutterstock.com/image-photo/baseball-player-throws-ball-on-600w-1131760214.jpg" alt="baseball player throwing ball within field>
-    <figcaption>Created by & property of Hayden Schaetzle</figcaption>
-  </figure>
-      <h2>Updated as of: 12 May 2022</h2> <!-- revisit to evenually keep automatic date per login -->
- 
-  <br><br>
- <body>
+  <html>
+    <head>
+    <div class="design"> <!-- in CSS place: ".design { background-color: burlywood;} -->
+    <link rel="stylesheet" type="text/css" href=styles.css">
+      <title>Baseball Card Ledger</title><br> 
+        <h1> BASEBALL CARD LEDGER</h1>
+        <h2>Created by and property of: Hayden Schaetzle</h2>
+        <h3>Updated as of: 12 May 2022</h3> <!-- revisit to evenually keep automatic date per login -->
+   </head>
+ <br>
+ <body><br>
    <p>Browse new cards <a href="https://www.topps.com/cards-collectibles/topps-now/mlbtoppsnow.html">here</a></p>
-   <br><br>
-   <text>Submit new card information below:</text> 
-    <form>
-      <input type="text" placeholder="SURNAME"required><br>                                                                                               
-      <input type="text" placeholder="Given name"required><br>                                                                       
-      <input type="text" placeholder="Team"required><br>                                                                                              
-      <input type="text" placeholder="Year"required><button type="submit">submit</button></input> 
-      <input type="checkbox" value="Duplicate">Duplicate</input>
-      <input type="checkbox" value="Archive">Archive</input>
-      <br> <!--intended to be able to eventually add information that will populate in list below-->
-         
-    </form>
+   <br><br>   
+      <fieldset>
+        <legend>Submit new card information below:</legend>
+        <input id="surname" type="text" placeholder="SURNAME"required><br>                    
+        <input id="given name" type="text" placeholder="Given name"required><br>                                    
+        <input id="team" type="text" placeholder="Team"required><br>  
+        <input id="year" type="text" placeholder="Year"required> 
+        <label><input type="checkbox" value="Duplicate"> Duplicate</label>
+        <label><input type="checkbox" value="Archive"> Archive</label>
+        <legend><button type="submit">submit</button></legend>
+      </fieldset>
+      <br> <!--intended to be able to eventually add information that will populate in list below--> 
   <br><br>
       <text>Ledger of current duplicate cards:</text>
       <ul>
@@ -33,14 +32,15 @@
         <li>LOAISIGA, Jonathan - Yankees - 2021<input type="checkbox"></li>
         <li>KLUBER, Corey - Yankees - 2021<input type="checkbox"></li>
         <li>CAVE, Jake - Twins - 2021<input type="checkbox"></li>
-      </ul> <!-- Place calculation of total somewhere here -->
-  <br>   <!-- add option to delete cards from roster somewhere here -->
-  <text>Ledger of archived cards:</text>  
-      
+      </ul>
+<button type="submit">delete</button><!-- Place calculation of total somewhere here -->
+  <br><br>   
+  <text>Ledger of archived cards:</text>        
       <ol>
         <li>Testing one</li>
         <li>Testing two</li>
         <li>Testing three</li>
       </ol>  <!-- Place calculation of total somewhere here -->
       <!-- add option to delete cards from roster somewhere here -->
+<img src="https://image.shutterstock.com/image-photo/baseball-player-throws-ball-on-600w-1131760214.jpg" alt="baseball player throwing ball within field>
 </body>
